@@ -1,0 +1,51 @@
+body{
+    background-color: #05c46b;  
+    
+}
+h1{
+    text-align: center;
+}
+form{
+    background-color: aliceblue;
+    max-width: 750px;
+    margin: 50px auto;
+   padding: 30px 20px;
+}
+input,select{
+    width: 100%;
+    height: 30px;
+    border: solid whitesmoke;
+}
+
+select:hover{
+    cursor:pointer;
+}
+.radio,#check{
+    width: 3%;
+    height: 14px; 
+}
+textarea{
+    width: 100%;
+    height: 115px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+button{
+    /* width: 100%;
+    height: 35px;
+    background-color: green;
+    color: white; */
+    background-color: #05c46b;
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+button:hover{
+    cursor: pointer;
+
+}
